@@ -99,7 +99,7 @@ main {
   transition: color 0.3s ease;
 }
 
-.card .card-content .title:hover {
+.card .card-content .title a:hover {
   cursor: pointer;
   color: var(--yellow);
 }
