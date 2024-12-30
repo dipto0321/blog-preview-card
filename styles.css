@@ -47,11 +47,12 @@ main {
   box-shadow: 8px 8px 0px var(--gray-950);
 }
 
-.card .card-thumb,
-.card .card-thumb img {
+.card .card-thumb {
   width: 100%;
   border-radius: 10px;
   height: 170px;
+  background-image: url('./assets/images/illustration-article.svg');
+  background-repeat: no-repeat;
 }
 
 .card .card-content {
@@ -133,7 +134,7 @@ footer {
   margin: 0 auto;
   width: 100%;
   padding: 24px 0;
-	text-align: center;
+  text-align: center;
 }
 
 footer a {
