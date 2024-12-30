@@ -50,7 +50,7 @@ main {
 .card .card-thumb {
   width: 100%;
   border-radius: 10px;
-  height: 170px;
+  height: 200px;
   background-image: url('./assets/images/illustration-article.svg');
   background-repeat: no-repeat;
 }
@@ -144,12 +144,11 @@ footer a {
 
 @media (min-width: 1024px) {
   .card {
-    width: 327px;
+    width: 384px;
   }
 
-  .card .card-thumb,
-  .card .card-thumb img {
-    height: 200px;
+	.card .card-thumb {
+    background-size: cover;
   }
 
   .card .card-content .card-tags .tag {
